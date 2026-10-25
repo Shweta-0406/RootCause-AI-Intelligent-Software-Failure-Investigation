@@ -1,0 +1,51 @@
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.bak
+
+# Java / Spring Boot
+target/
+*.class
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Node.js / React / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated
+.factorypath
+.nbproject/private/
+.nbbuild/
+.nbdist/
+.nb-gradle/
+build/
+
+# Operating system files
+.DS_Store
+Thumbs.db
