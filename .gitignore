@@ -33,3 +33,14 @@ build/
 .vscode/
 *.log
 /src/main/resources/application.properties
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+.pytest_cache/
